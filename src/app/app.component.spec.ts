@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'lc-angular-example' title`, () => {
+  it(`should have the 'amplify-backend-issue-2320-angular' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('lc-angular-example');
+    expect(app.title).toEqual('amplify-backend-issue-2320-angular');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, lc-angular-example');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, amplify-backend-issue-2320-angular');
   });
 });

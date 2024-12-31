@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'lc-angular-example';
+  title = 'amplify-backend-issue-2320-angular';
 }
